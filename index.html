@@ -27,6 +27,21 @@
 <body>
     
     <h1 class="library-header">The Great Library of Gershingxandria.</h1>
+    <div class="add-new-book-box">
+        <form id="add-book">
+            <label for="add-book-title">Title:</label>
+            <input type="text" id="add-book-title" name="book-title" placeholder="Book title">
+            <label for="add-book-author">Author</label>
+            <input type="text" id="add-book-author" name="book-author" placeholder="Book title">
+            <label for="add-book-genre">Genre?</label>
+            <select name="book-genre" id="add-book-genre">
+                <option value="nonfiction">Nonfiction</option>
+                <option value="novel">Novel</option>
+                <option value="biography">Biography</option>
+            </select>
+            <button class="submit" form="add-book" type="submit">Add Book to Library</button>
+        </form>
+    </div>
     <div class="library"></div> 
     <script src="javascript.js">
         </script>

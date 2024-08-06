@@ -57,6 +57,7 @@ h6 {
     font-style: normal;
 
     font-size: 35px;
+    --library-width: 1200px;
 
 }
 
@@ -68,9 +69,18 @@ h6 {
 
 }
 
+.add-new-book-box {
+    border: 1px solid red;
+    border-radius: 20px;
+    font-size: 40px;
+    width: var(--library-width);
+    padding: 20px;
+    background-color:chocolate;
+}
+
 .library{
     display: flex;
-    width: 1200px;
+    width: var(--library-width);
     flex-wrap:wrap;
     justify-content: flex-start;
     align-items: flex-start;
@@ -86,11 +96,13 @@ h6 {
     justify-content: space-around;
     align-items: center;
     border: 1px solid black;
+    
 }
 
 .novel {
     width: 200px;
     height: 400px;
+    border-radius: 10px;
 
     font-size: 20px;
     font-family: "Caveat", cursive;
@@ -102,6 +114,7 @@ h6 {
 .nonfiction{
     width: 250px;
     height: 390px;
+    border-radius: 5px;
 
     font-size: 30px;
     font-family: "Libre Caslon Text", serif;
@@ -117,4 +130,5 @@ h6 {
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;
+    border-radius: 5px;
 }
