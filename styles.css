@@ -50,5 +50,71 @@ h6 {
 }
 
 :root{
-    font-size :28px;
+
+
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 35px;
+
+}
+
+  
+
+.library-header{
+    font-size: 60px;
+    color: rgba(190, 116, 46, 0.788);
+
+}
+
+.library{
+    display: flex;
+    width: 1200px;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid black;
+    gap: 30px;
+    padding: 50px;
+}
+
+.book{
+
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.novel {
+    width: 200px;
+    height: 400px;
+
+    font-size: 20px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.nonfiction{
+    width: 250px;
+    height: 390px;
+
+    font-size: 30px;
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+.biography{
+    width: 200px;
+    height: 350px;
+    font-size: 25px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
