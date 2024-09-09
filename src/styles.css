@@ -5,17 +5,17 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
 img,
@@ -23,15 +23,15 @@ picture,
 video,
 canvas,
 svg {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 input,
 button,
 textarea,
 select {
-    font: inherit;
+  font: inherit;
 }
 
 p,
@@ -41,162 +41,152 @@ h3,
 h4,
 h5,
 h6 {
-    overflow-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 #root,
 #__next {
-    isolation: isolate;
+  isolation: isolate;
 }
 
-:root{
-
-    font-size: 35px;
-    --library-width: 1200px;
-    --dialog-box-width: 750px;
+:root {
+  font-size: 35px;
+  --library-width: 1200px;
+  --dialog-box-width: 750px;
 }
 
-  
-body{
-    position:relative;
+body {
+  position: relative;
 }
 
-.library-header{
-    font-family: "Grey Qo", cursive;
-    font-weight: 400;
-    font-style: normal;
+.library-header {
+  font-family: "Grey Qo", cursive;
+  font-weight: 400;
+  font-style: normal;
 
-    font-size: 90px;
-    color: rgba(190, 116, 46, 0.788);
-    padding: 30px;
+  font-size: 90px;
+  color: rgba(190, 116, 46, 0.788);
+  padding: 30px;
 }
 
-.add-book-button{
-    margin: 30px;
-    padding: 10px;
+.add-book-button {
+  margin: 30px;
+  padding: 10px;
 }
 
 .add-new-book-box {
-    position: absolute;
-    top: 20vh;
-    left: 20vw;
-    border: 5px solid rgb(0, 0, 0);
-    border-radius: 20px;
-    font-size: 30px;
-    width: var(--dialog-box-width);
-    padding: 20px;
-    background-color:chocolate;
+  position: absolute;
+  top: 20vh;
+  left: 20vw;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  font-size: 30px;
+  width: var(--dialog-box-width);
+  padding: 20px;
+  background-color: chocolate;
 }
 
-#add-book{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding : 20px;
-    gap: 20px;
+#add-book {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
 }
 
-.submit{
-    display: inline;
+.submit {
+  display: inline;
 }
 
-.library{
-    display: flex;
-    width: var(--library-width);
-    flex-wrap:wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 30px;
-    padding: 50px;
+.library {
+  display: flex;
+  width: var(--library-width);
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 50px;
 }
 
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
 }
 
-.book{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    border: 1px solid black;
-    background-color:rgb(211, 129, 62);
-    padding: 10px;
-    
+.book {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  background-color: rgb(211, 129, 62);
+  padding: 10px;
 }
 
 .novel {
+  width: 250px;
+  height: 400px;
+  border-radius: 10px;
 
-    
-    width: 250px;
-    height: 400px;
-    border-radius: 10px;
-
-    font-size: 20px;
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    background-color: aqua;
+  font-size: 20px;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background-color: aqua;
 }
 
-.nonfiction{
-    width: 250px;
-    height: 390px;
-    border-radius: 5px;
+.nonfiction {
+  width: 250px;
+  height: 390px;
+  border-radius: 5px;
 
-    font-size: 15px;
-    font-family: "Libre Caslon Text", serif;
-    font-weight: 400;
-    font-style: normal;
-    background-color: black;
-    color:yellow;
+  font-size: 15px;
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  color: yellow;
 }
 
-.biography{
-    width: 200px;
-    height: 350px;
-    font-size: 20px;
-    font-family: "Lobster", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    border-radius: 5px;
+.biography {
+  width: 200px;
+  height: 350px;
+  font-size: 20px;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 5px;
 }
 
-.remove-button{
-    padding: 5px;
-    background-color: cadetblue;
-    color: black;
-    width: 120px;
-    
+.remove-button {
+  padding: 5px;
+  background-color: cadetblue;
+  color: black;
+  width: 120px;
 }
 
-.read-button{
-    padding: 5px;
-    width: 80px;
+.read-button {
+  padding: 5px;
+  width: 80px;
 }
 
-.read-status-indicator{
-    padding: 8px;
-    width: 80px;
-
+.read-status-indicator {
+  padding: 8px;
+  width: 80px;
 }
 
-
-.read{
-    font-style: italic;
-    background-color: darkgreen;
-    color: yellow;
+.read {
+  font-style: italic;
+  background-color: darkgreen;
+  color: yellow;
 }
 
-
-input, select{
-    margin-left: 20px;
+input,
+select {
+  margin-left: 20px;
 }
-.input-row{
-    display:flex;
-    justify-content: flex-start;
+.input-row {
+  display: flex;
+  justify-content: flex-start;
 }
