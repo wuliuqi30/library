@@ -10,3 +10,5 @@ class Book {
     }
   
   }
+
+export {Book};

@@ -180,3 +180,5 @@ class Library {
     }
   
   }
+
+  export {Library}
